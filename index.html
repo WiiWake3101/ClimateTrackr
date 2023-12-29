@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClimateTrackr</title>
+  </head>
+  <link rel="stylesheet" href="index.css" />
+  <link
+    href="https://unpkg.com/css.gg@2.0.0/icons/css/sun.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <body>
+    <div class="Menu_bar_rect">
+      <p class="Menu_bar_font">ClimateTrackr</p>
+      <hr class="below_menu_bar_line" />
+    </div>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+        <button aria-label="Search"><img src="images/search.png" /></button>
+      </div>
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icon" />
+        <h1 class="temp">-- °c</h1>
+        <br />
+        <h2 class="city">--</h2>
+        <br />
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">--</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <b><p class="Wind">--</p></b>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card_2">
+      <h2 class="forecast_5">5 Day Forecast</h2>
+      <div class="weather-container">
+        <img src="images/rain.png" class="weather-icon_2" />
+        <img src="images/rain.png" class="weather-icon_2" />
+        <img src="images/rain.png" class="weather-icon_2" />
+        <img src="images/rain.png" class="weather-icon_2" />
+        <img src="images/rain.png" class="weather-icon_2" />
+      </div>
+    </div>
+    <div class="card_3">
+      <h2 class="Hourly_Temperature_Forecast">
+        Hourly Temperature Forecast Chart
+      </h2>
+      <br />
+      <canvas id="hourlyForecastChart" width="800" height="300"></canvas>
+    </div>
+    <div class="card_4">
+      <h2>Other Details</h2>
+      <p class="Other_details">
+        <strong>Feels like --, --</strong><br />
+        <br />
+        <br />
+        <strong>Wind:</strong> --<br />
+        <br />
+        <br />
+        <strong>Pressure:</strong> -- hPa<br />
+        <br />
+        <br />
+        <strong>UV:</strong>--<br />
+        <br />
+        <br />
+        <strong>Dew point:</strong> -- °C<br />
+        <br />
+        <br />
+        <strong>Visibility:</strong> -- km
+        <br />
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

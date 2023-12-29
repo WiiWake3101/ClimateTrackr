@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: max-content;
+  background: var(--BG-1, #292f36);
+}
+
+.Menu_bar_rect {
+  display: flex;
+  padding: 35px 50px;
+  flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+.Menu_bar_font {
+  color: var(--White, #fff);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  text-transform: capitalize;
+}
+
+.below_menu_bar_line {
+  margin: 15px 0px;
+}
+
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  margin: -20px auto 0px;
+  left: 50px;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: absolute;
+  background: url('images/About me.png');
+  color: #fff;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 16px;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.weather h1 {
+  font-size: 80px;
+
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.humidity,
+.wind {
+  font-size: 28px;
+  margin-top: -6px;
+}
+
+.card_2 {
+  width: 90%;
+  height: 258px;
+  margin: -20px 530px 0px;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: absolute;
+  max-width: 700px;
+  background: url('images/About me.png');
+  color: #fff;
+  text-align: center;
+}
+
+.weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.forecast_5 {
+  margin-bottom: 10px;
+}
+
+.weather-icon_2 {
+  width: 100px;
+  top: 5px;
+  margin-left: -5px;
+  padding-bottom: 5px;
+}
+
+.date-text {
+  margin-top: 125px;
+  margin-left: -165px;
+  padding-left: -100px;
+  align-self: center;
+}
+
+.temp_1 {
+  font-size: 25px;
+  top: 5px;
+  margin-left: -5px;
+  align-self: center;
+}
+
+.card_3 {
+  width: 90%;
+  height: 340px;
+  margin: 250px 530px 0px;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: absolute;
+  max-width: 700px;
+  background: url('images/About me.png');
+  color: #fff;
+  text-align: center;
+}
+
+.card_3 h2 {
+  height: -125px;
+
+}
+
+
+.Hourly_Temperature_Forecast {
+  top: 100px;
+  left: 50px;
+}
+
+.card_4 {
+  width: 90%;
+  height: 610px;
+  margin: -20px 1240px 0px;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: absolute;
+  max-width: 250px;
+  background: url('images/About me.png');
+  color: #fff;
+  text-align: center;
+}
+
+
+.card_4 h2 {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.card_4 .Other_details {
+  font-size: large;
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.card_4 .Other_details strong {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  .body {
+    height: max-content;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: -30px auto 0;
+  }
+
+  .search input {
+    width: 1%;
+    margin-right: 10px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .search button img {
+    width: 15px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 18px;
+    margin-top: -6px;
+  }
+}
