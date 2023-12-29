@@ -320,7 +320,8 @@ body {
 
 }
 
-@media (max-width: 412px) {
+
+@media (max-width: 412px) and (min-width: 375px) {
 
   .body {
     height: max-content;
@@ -357,7 +358,7 @@ body {
 
   .card_2 {
     max-width: 675px;
-    margin: 600px auto 0px 20px;
+    margin: 620px auto 10px 20px;
   }
 
   .weather-container {
@@ -394,19 +395,39 @@ body {
 
   .card_3 {
     max-width: 675px;
-    margin: 875px auto 0px 20px;
+    margin: 895px auto 0px 20px;
   }
+
+  .Hourly_Temperature_Forecast {
+    top: 100px;
+    left: 50px;
+  }
+
+  #hourlyForecastChart {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    height: 2750px;
+    max-width: 300px;
+  }
+
 
   .card_4 {
     max-width: 675px;
-    margin: 1240px auto 100px 20px;
-    height: 575px;
+    margin: 1260px auto 100px 20px;
+    height: 375px;
   }
 
   .card_4 .Other_details {
-    font-size: x-large;
+    font-size: large;
     text-transform: capitalize;
-    line-height: 1.5;
+    line-height: 1.2;
+  }
+
+  .card_4 h2 {
+    margin-top: -20px;
+    margin-bottom: px;
+    padding-bottom: 10px;
   }
 
   .card_4 .Other_details strong {
