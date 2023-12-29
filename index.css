@@ -223,6 +223,103 @@ body {
   text-align: center;
 }
 
+@media (max-width: 412px){
+
+  .body {
+    height: max-content;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 675px;
+    margin: -30px auto 0px -28px;
+  }
+
+  .search input {
+    width: 1%;
+    margin-right: 10px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .search button img {
+    width: 15px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 18px;
+    margin-top: -6px;
+  }
+
+  .card_2 {
+    max-width: 675px;
+    margin: 600px auto 0px 20px;
+  }
+
+  .weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .forecast_5 {
+    margin-bottom: 10px;
+  }
+
+  .weather-icon_2 {
+    width: 65px;
+    top: 5px;
+    margin-left: -10px;
+    padding-bottom: 5px;
+  }
+
+  .date-text {
+    margin-top: 125px;
+    margin-left: -165px;
+    padding-left: -100px;
+    align-self: center;
+  }
+
+  .temp_1 {
+    font-size: 15px;
+    top: 5px;
+    margin-left: -5px;
+    align-self: center;
+  }
+
+  .card_3 {
+    max-width: 675px;
+    margin: 875px auto 0px 20px;
+  }
+
+  .card_4 {
+    max-width: 675px;
+    margin: 1240px auto 100px 20px;
+    height: 575px;
+  }
+
+  .card_4 .Other_details {
+    font-size: x-large;
+    text-transform: capitalize;
+    line-height: 1.25;
+  }
+
+  .card_4 .Other_details strong {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+}
+
 @media (max-width: 768px) {
 
   .body {
