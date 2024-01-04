@@ -223,6 +223,7 @@ body {
   text-align: center;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
 
   .body {
@@ -438,6 +439,8 @@ body {
 }
 
 
+=======
+>>>>>>> c6a806fd01dce2e51cb8918c9b6cd612b74915ee
 @media (max-width: 412px) and (min-width: 375px) {
 
   .body {
