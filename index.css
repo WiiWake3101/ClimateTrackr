@@ -223,7 +223,6 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 @media (max-width: 768px) {
 
   .body {
@@ -321,126 +320,6 @@ body {
 
 }
 
-@media (max-width: 425px) {
-
-  .body {
-    height: max-content;
-  }
-
-  .menu {
-    flex-direction: column;
-  }
-
-  .card {
-    max-width: 675px;
-    margin: -30px auto 0px -28px;
-  }
-
-  .search input {
-    width: 1%;
-    margin-right: 10px;
-  }
-
-  .search button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .search button img {
-    width: 15px;
-  }
-
-  .humidity,
-  .wind {
-    font-size: 18px;
-    margin-top: -6px;
-  }
-
-  .card_2 {
-    max-width: 675px;
-    margin: 620px auto 10px 20px;
-  }
-
-  .weather-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-
-  .forecast_5 {
-    margin-bottom: 10px;
-  }
-
-  .weather-icon_2 {
-    width: 65px;
-    top: 5px;
-    margin-left: -10px;
-    padding-bottom: 5px;
-  }
-
-  .date-text {
-    margin-top: 125px;
-    margin-left: -165px;
-    padding-left: -100px;
-    align-self: center;
-  }
-
-  .temp_1 {
-    font-size: 15px;
-    top: 5px;
-    margin-left: -5px;
-    align-self: center;
-  }
-
-  .card_3 {
-    max-width: 675px;
-    margin: 895px auto 0px 20px;
-  }
-
-  .Hourly_Temperature_Forecast {
-    top: 100px;
-    left: 50px;
-  }
-
-  #hourlyForecastChart {
-    display: block;
-    margin: 20px auto;
-    width: 90%;
-    height: 2750px;
-    max-width: 300px;
-  }
-
-
-  .card_4 {
-    max-width: 675px;
-    margin: 1260px auto 100px 20px;
-    height: 375px;
-  }
-
-  .card_4 .Other_details {
-    font-size: large;
-    text-transform: capitalize;
-    line-height: 1.2;
-  }
-
-  .card_4 h2 {
-    margin-top: -20px;
-    margin-bottom: px;
-    padding-bottom: 10px;
-  }
-
-  .card_4 .Other_details strong {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-  }
-
-}
-
-
-=======
->>>>>>> c6a806fd01dce2e51cb8918c9b6cd612b74915ee
 @media (max-width: 412px) and (min-width: 375px) {
 
   .body {
