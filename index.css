@@ -9,6 +9,8 @@ body {
   width: auto;
   height: max-content;
   background: var(--BG-1, #292f36);
+  height: 100%; 
+  overflow-x: hidden;
 }
 
 .Menu_bar_rect {
