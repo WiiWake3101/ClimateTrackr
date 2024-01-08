@@ -9,6 +9,7 @@ body {
   width: auto;
   height: max-content;
   background: var(--BG-1, #292f36);
+  /* Just made sure that it doesn't overflow */
   height: 100%; 
   overflow-x: hidden;
 }
