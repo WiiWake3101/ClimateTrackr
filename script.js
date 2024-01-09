@@ -356,6 +356,11 @@ function updateOtherDetails(data, weatherDescription) {
     <strong>Dew point:</strong> ${dewPoint} °C<br><br>
     <strong>Visibility:</strong> ${visibility}  km
   `;
+
+  otherDetails.style.fontsize = "50px";
+  otherDetails.style.lineHeight = "2.0";
+  // Reapply the class to the updated content
+  otherDetails.classList.add("Other_details");
 }
 
 function getWindDirection(deg) {

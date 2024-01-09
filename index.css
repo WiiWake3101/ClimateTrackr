@@ -154,6 +154,13 @@ body {
   padding-bottom: 5px;
 }
 
+.temp_display {
+  margin-top: 120px;
+  margin-left: -110px;
+}
+
+
+
 .date-text {
   margin-top: 125px;
   margin-left: -165px;
@@ -183,7 +190,6 @@ body {
 
 .card_3 h2 {
   height: -125px;
-
 }
 
 
@@ -214,70 +220,48 @@ body {
 .card_4 .Other_details {
   font-size: large;
   text-transform: capitalize;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .card_4 .Other_details strong {
   font-weight: bold;
   font-size: large;
-  text-align: center;
+  margin: 15px auto 0px auto;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width:320px) {
 
-  .body {
-    height: max-content;
-  }
-
-  .menu {
-    flex-direction: column;
-  }
-
+  /* Styles for mobile screens (size -s)*/
   .card {
-    max-width: 675px;
-    margin: -30px auto 0px 0px;
+    margin-left: -30px;
   }
 
   .search input {
-    width: 1%;
-    margin-right: 10px;
+    width: 20%;
+    font-size: 13px;
+    font-weight: 400;
   }
 
-  .search button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .search button img {
-    width: 15px;
+  .col img {
+    width: 40px;
+    margin-right: 7.5px;
   }
 
   .humidity,
   .wind {
-    font-size: 18px;
-    margin-top: -6px;
+    font-size: 15px;
+    margin-left: 20px;
   }
 
   .card_2 {
-    max-width: 675px;
-    margin: 600px auto 0px 50px;
-  }
-
-  .weather-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-
-  .forecast_5 {
-    margin-bottom: 10px;
+    margin: 640px auto 0px 23px;
   }
 
   .weather-icon_2 {
-    width: 85px;
+    width: 80%;
+    max-width: 100px;
     top: 5px;
-    margin-left: -15px;
+    margin-left: -5px;
     padding-bottom: 5px;
   }
 
@@ -286,270 +270,7 @@ body {
     margin-left: -165px;
     padding-left: -100px;
     align-self: center;
-  }
-
-  .temp_1 {
-    font-size: 20px;
-    top: 5px;
-    margin-left: -5px;
-    align-self: center;
-  }
-
-  .card_3 {
-    max-width: 675px;
-    margin: 875px auto 0px 50px;
-  }
-
-  .card_4 {
-    max-width: 675px;
-    margin: 1240px auto 100px 50px;
-    height: 575px;
-  }
-
-  .card_4 .Other_details {
-    font-size: x-large;
-    text-transform: capitalize;
-    line-height: 1.75;
-  }
-
-  .card_4 .Other_details strong {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-  }
-
-}
-
-@media (max-width: 412px) and (min-width: 375px) {
-
-  .body {
-    height: max-content;
-  }
-
-  .menu {
-    flex-direction: column;
-  }
-
-  .card {
-    max-width: 675px;
-    margin: -30px auto 0px -28px;
-  }
-
-  .search input {
-    width: 1%;
-    margin-right: 10px;
-  }
-
-  .search button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .search button img {
-    width: 15px;
-  }
-
-  .humidity,
-  .wind {
-    font-size: 18px;
-    margin-top: -6px;
-  }
-
-  .card_2 {
-    max-width: 675px;
-    margin: 620px auto 10px 20px;
-  }
-
-  .weather-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-
-  .forecast_5 {
-    margin-bottom: 10px;
-  }
-
-  .weather-icon_2 {
-    width: 65px;
-    top: 5px;
-    margin-left: -10px;
-    padding-bottom: 5px;
-  }
-
-  .date-text {
-    margin-top: 125px;
-    margin-left: -165px;
-    padding-left: -100px;
-    align-self: center;
-  }
-
-  .temp_1 {
-    font-size: 15px;
-    top: 5px;
-    margin-left: -5px;
-    align-self: center;
-  }
-
-  .card_3 {
-    max-width: 675px;
-    margin: 895px auto 0px 20px;
-  }
-
-  .Hourly_Temperature_Forecast {
-    top: 100px;
-    left: 50px;
-  }
-
-  #hourlyForecastChart {
-    display: block;
-    margin: 20px auto;
-    width: 90%;
-    height: 2750px;
-    max-width: 300px;
-  }
-
-
-  .card_4 {
-    max-width: 675px;
-    margin: 1260px auto 100px 20px;
-    height: 375px;
-  }
-
-  .card_4 .Other_details {
-    font-size: large;
-    text-transform: capitalize;
-    line-height: 1.2;
-  }
-
-  .card_4 h2 {
-    margin-top: -20px;
-    margin-bottom: px;
-    padding-bottom: 10px;
-  }
-
-  .card_4 .Other_details strong {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-  }
-
-}
-
-@media (max-width: 320px) {
-
-  .body {
-    height: max-content;
-  }
-
-  .menu {
-    flex-direction: column;
-  }
-
-  .card {
-    max-width: 675px;
-    margin: -30px auto 0px -30px;
-  }
-
-  .search input {
-    width: 1%;
-    margin-right: 10px;
-  }
-
-  .search button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .search button img {
-    width: 15px;
-  }
-
-  .humidity,
-  .wind {
-    font-size: 18px;
-    margin-top: -6px;
-  }
-
-  .card_2 {
-    max-width: 675px;
-    margin: 620px auto 10px 20px;
-  }
-
-  .weather-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-
-  .forecast_5 {
-    margin-bottom: 10px;
-  }
-
-  .weather-icon_2 {
-    width: 45px;
-    top: 5px;
-    margin-left: -5px;
-    padding-bottom: 5px;
-  }
-
-  .date-text {
-    margin-top: 125px;
-    margin-left: -185px;
-    padding-left: -120px;
-    align-self: center;
-  }
-
-  .temp_1 {
-    font-size: 15px;
-    top: 2px;
-    margin-left: -20px;
-    align-self: center;
-  }
-
-  .card_3 {
-    max-width: 675px;
-    margin: 895px auto 0px 20px;
-  }
-
-  .Hourly_Temperature_Forecast {
-    top: 100px;
-    left: 50px;
-  }
-
-  #hourlyForecastChart {
-    display: block;
-    margin: 20px auto;
-    width: 90%;
-    height: 2750px;
-    max-width: 250px;
-  }
-
-
-  .card_4 {
-    max-width: 675px;
-    margin: 1260px auto 100px 20px;
-    height: 375px;
-  }
-
-  .card_4 .Other_details {
-    font-size: large;
-    text-transform: capitalize;
-    line-height: 1.2;
-  }
-
-  .card_4 h2 {
-    margin-top: -20px;
-    margin-bottom: px;
-    padding-bottom: 10px;
-  }
-
-  .card_4 .Other_details strong {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
+    font-size: medium;
   }
 
 }
