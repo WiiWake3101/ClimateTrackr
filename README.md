@@ -57,7 +57,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact
 
-For any inquiries or feedback, please contact [Your Email](vm4512@srmist.edu.in) or open an issue in the repository.
+For any inquiries or feedback, please contact [ Vivek MG ](vm4512@srmist.edu.in) or open an issue in the repository.
 
 ## Output
 [Output](https://raw.githack.com/WiiWake3101/ClimateTrackr/main/index.html)
